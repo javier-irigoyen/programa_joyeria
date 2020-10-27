@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog_joyeria", "prog_joyeria.csproj", "{FDBE5483-08BC-4A33-BD39-730908C74C1F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{1B29B606-72AB-46D7-BD43-B18040A26785}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Landing Page.xd = ..\..\..\..\Desktop\Landing Page.xd
+		..\..\..\..\Desktop\UI Kit - Navigo.xd = ..\..\..\..\Desktop\UI Kit - Navigo.xd
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -17,9 +17,15 @@ namespace prog_joyeria
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btn_MouseEnter(object sender, EventArgs e)
         {
-
+            btnLb.BackColor=Color.FromArgb(39, 50, 170);
         }
-    }
+
+        private void btn_MouseLeave(object sender, EventArgs e)
+        {
+            btnLb.BackColor = Color.FromArgb(1, 3, 19);
+        }
+    }  
+    
 }
