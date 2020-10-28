@@ -41,7 +41,7 @@ namespace prog_joyeria
             btn1.BaseColor = Color.FromArgb(1, 3, 19);
         }
 
-        BtnMenu c = new BtnMenu(GunaButton btn1;btnLbel1);
+        
 
     }  
     
