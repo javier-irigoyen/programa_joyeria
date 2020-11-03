@@ -40,15 +40,27 @@ namespace prog_joyeria
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             showSubMenu(pnlBuscar);
-            bunifuPages1.PageName = "tabBuscar";
+            mainPage.PageName = "tabBuscar";
 
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             showSubMenu(pnlIngresar);
-            bunifuPages1.PageName = "tabIngresar";
+            mainPage.PageName = "tabIngresar";
+            
 
+        }
+
+        private void btnDiamante_Click(object sender, EventArgs e)
+        {
+            mainPage.PageName = "tabDiamante";
+        }
+
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            mainPage.PageName = "tabIngresar";
         }
 
     }
