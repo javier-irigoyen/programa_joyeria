@@ -43,6 +43,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
       <HintPath>..\..\..\..\Desktop\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\..\Desktop\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
       <HintPath>..\..\..\..\Desktop\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
     </Reference>
