@@ -51,6 +51,11 @@ namespace prog_joyeria
             
 
         }
+        private void btnVender_Click(object sender, EventArgs e)
+        {
+            showSubMenu(pnlVender);
+            
+        }
 
         private void btnDiamante_Click(object sender, EventArgs e)
         {
@@ -62,7 +67,37 @@ namespace prog_joyeria
         {
             mainPage.PageName = "tabIngresar";
         }
+        private void btnVenderCliente_Click(object sender, EventArgs e)
+        {
+            mainPage.PageName = "tabVenderCliente";
+        }
+        private void btnRegistros_Click(object sender, EventArgs e)
+        {
+            mainPage.PageName = "tabRegistros";
+        }
+        private void btnComprobante_Click(object sender, EventArgs e)
+        {
+            if (ingCombCom.Visible==false &&
+                ingLbCom.Visible==false &&
+                ingLbN.Visible==false &&
+                ingTextN.Visible==false)
+                
+            {
+                ingCombCom.Visible = true;
+                ingLbCom.Visible = true;
+                ingLbN.Visible = true;
+                ingTextN.Visible = true;
+            }
+            else
+            {
+                ingCombCom.Visible = false;
+                ingLbCom.Visible = false;
+                ingLbN.Visible = false;
+                ingTextN.Visible = false;
+            }   
+        }
 
+        
     }   
 
 }
