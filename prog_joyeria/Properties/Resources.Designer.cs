@@ -63,9 +63,9 @@ namespace prog_joyeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap expand_arrow_50px {
+        internal static System.Drawing.Bitmap imagen_preview {
             get {
-                object obj = ResourceManager.GetObject("expand_arrow_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("imagen_preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,100 +73,9 @@ namespace prog_joyeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap expand_arrow_64px {
+        internal static System.Drawing.Bitmap shop_50px {
             get {
-                object obj = ResourceManager.GetObject("expand_arrow_64px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap forward_50px {
-            get {
-                object obj = ResourceManager.GetObject("forward_50px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap forward_64px {
-            get {
-                object obj = ResourceManager.GetObject("forward_64px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_forward_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8_forward_32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kisspng_diamond_gemstone_vector_graphics_brilliant_desktop_217_5c02b2d9c1f571_8490371215436807297945 {
-            get {
-                object obj = ResourceManager.GetObject("kisspng-diamond-gemstone-vector-graphics-brilliant-desktop-217-5c02b2d9c1f571.849" +
-                        "0371215436807297945", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap png_transparent_glowing_diamonds_color_blocks_color_diamond {
-            get {
-                object obj = ResourceManager.GetObject("png-transparent-glowing-diamonds-color-blocks-color-diamond", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pngwing_com {
-            get {
-                object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_50px {
-            get {
-                object obj = ResourceManager.GetObject("search_50px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_64px {
-            get {
-                object obj = ResourceManager.GetObject("search_64px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_64px1 {
-            get {
-                object obj = ResourceManager.GetObject("search_64px1", resourceCulture);
+                object obj = ResourceManager.GetObject("shop_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
